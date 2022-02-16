@@ -55,7 +55,7 @@ function Main() {
     )
   }
 
-  const contextRef = createRef()
+  const contextRef = createRef<HTMLDivElement>()
 
   return (
     <div ref={contextRef}>

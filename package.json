@@ -43,6 +43,11 @@
     "stream-browserify": "^3.0.0"
   },
   "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "@types/react": "^17.0.39",
+    "@types/react-copy-to-clipboard": "^5.0.2",
+    "@types/semantic-ui": "^2.2.7",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
     "eslint-config-prettier": "^8.3.0",
     "gh-pages": "^3.2.3",
     "prettier": "2.5.1",

@@ -12,3 +12,5 @@ describe('App Test Suite', () => {
     // ReactDOM.render(<App />, div);
   })
 })
+
+export {}
