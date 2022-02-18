@@ -11,8 +11,8 @@ function Main(props) {
   const [status, setStatus] = useState('')
 
   // The currently stored value
-  const [currentValue, setCurrentValue] = useState(0)
-  const [formValue, setFormValue] = useState(0)
+  const [currentValue, setCurrentValue] = useState<number | string>(0)
+  const [formValue, setFormValue] = useState<number | string>(0)
 
   useEffect(() => {
     let unsubscribe
